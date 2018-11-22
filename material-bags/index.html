@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/custom.css" media="screen,projection">
+    <link rel="icon" href="assets/img/favicon.png">
+    <title>PUZZLE BAGZZ</title>
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper grey lighten-5 grey-text text-darken-4">
+            <div class="container">
+                <a id="logo-container" href="#" class="brand-logo grey-text text-darken-3">
+                    <img class="brand-image responsive-img hide-on-med-and-down" alt="Website Logo" src="assets/img/brand-logo.jpg">
+                    <span class="brand-title">puzzle bagz</span></a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons grey-text text-darken-4">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <div id="secondDiv"></div>
+                        <div id="thirdDiv"></div>
+                        <div id="fourthDiv"></div>
+                        <div id="fifthDiv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav()
+        })
+    </script>
+</body>
+
+</html>
